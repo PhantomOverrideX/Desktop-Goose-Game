@@ -5,5 +5,18 @@ To run it with default settings use the command
 python Goose.py
 
 You can add flags to customize the game.
---sprite SPRITE_FILE_NAME (lets you give it a custom sprite)
---sprite-shrink SHRINK_VAL
+
+--no-mouse
+--no-minimize
+--no-edge
+--no-poop
+--no-context
+--no-hud
+--no-drag
+--click-release
+--stage {0,1,2,3,4}
+--chaos {1,2,3}                   1 gentle, 2 default, 3 full goose
+--minutes MINUTES
+--sound
+--sprite SPRITE                   path to a PNG of your goose (faces right)
+--sprite-shrink SPRITE_SHRINK     shrink the PNG by this whole-number factor (default 2)
